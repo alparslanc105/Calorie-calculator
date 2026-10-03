@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalori Hesaplayıcı</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>Kalori Hesaplayıcı</h1>
+  <p class="sub" id="bilgi"></p>
+
+  <div class="grid">
+    <section>
+      <h2>Aktiviteler (dakika)</h2>
+      <div id="aktiviteler"></div>
+    </section>
+    <section>
+      <h2>Hesap</h2>
+      <div class="stat"><span>BMR</span><b id="bmr">0</b></div>
+      <div class="stat"><span>Baz maintenance (BMR × 1.2)</span><b id="baz">0</b></div>
+      <div class="stat"><span>Brüt aktivite</span><b id="brut">0</b></div>
+      <div class="stat"><span>Net aktivite</span><b id="net">0</b></div>
+    </section>
+  </div>
+
+  <div class="results">
+    <section class="main">
+      <h2>Maintenance</h2>
+      <div class="big" id="maint">0</div>
+      <div class="range">kcal / gün</div>
+    </section>
+    <section class="cut">
+      <h2>Cut</h2>
+      <div class="big" id="cutOrta">0</div>
+      <div class="range" id="cutAralik"></div>
+    </section>
+    <section class="bulk">
+      <h2>Clean bulk</h2>
+      <div class="big" id="bulkOrta">0</div>
+      <div class="range" id="bulkAralik"></div>
+    </section>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
